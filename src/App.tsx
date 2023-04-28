@@ -5,6 +5,9 @@ import Input from './components/Input';
 import ChangeColor from './components/ChangeColor';
 import ParentProps from './components/ParentProps';
 import Todo from './components/Todo';
+import Header from './components/Header';
+import Section from './components/Section';
+import Tail from './Tail';
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
       <Input  /> */}
       {/* <ChangeColor  /> */}
       {/* <ParentProps  /> */}
-      <Todo />
+      {/* <Todo /> */}
+      {/* <Header />
+      <Section color='blue' /> */}
+      <Tail />
     </div>
   );
 }
